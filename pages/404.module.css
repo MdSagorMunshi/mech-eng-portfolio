@@ -1,0 +1,70 @@
+/* pages/404.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9; /* Light background color */
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.title {
+  font-size: 48px;
+  color: #ff6347; /* Tomato color */
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #333; /* Dark gray */
+  margin: 10px 0;
+}
+
+/* pages/404.module.css */
+.image {
+  width: 200px; /* Set the width to your preference */
+  height: 200px; /* Set the height to match the width */
+  border-radius: 50%; /* This makes the image round */
+  object-fit: cover; /* This ensures the image covers the circle */
+  margin: 20px 0; /* Add some margin if needed */
+}
+
+.description {
+  font-size: 16px;
+  color: #666; /* Light gray */
+}
+
+.inquiry {
+  font-size: 16px;
+  color: #333; /* Dark gray */
+  margin: 20px 0;
+}
+
+.email {
+  color: #0070f3; /* Next.js blue */
+  text-decoration: underline; /* Underline email for visibility */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0070f3; /* Next.js blue */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
