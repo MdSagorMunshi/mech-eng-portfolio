@@ -1,5 +1,0 @@
-/* styles/globals.css */
-body {
-  user-select: none; /* Prevent text selection for the entire body */
-  -webkit-user-select: none; /* Prevent text selection in Safari */
-}
