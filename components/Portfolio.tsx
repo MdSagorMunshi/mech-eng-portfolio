@@ -43,7 +43,7 @@ const socialLinks: SocialLink[] = [
       } catch (error) {
         console.error('Error fetching projects:', error)
       } finally {
-        setLoading(false)
+        setTimeout(() => setLoading(false), 2000)
       }
     }
 
@@ -63,7 +63,7 @@ const socialLinks: SocialLink[] = [
           <div className="container mx-auto px-4">
             <div className="flex justify-between items-center">
               <div>
-                <motion.h1 
+                <motion.h1
                   className="text-4xl font-bold mb-2"
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -71,7 +71,7 @@ const socialLinks: SocialLink[] = [
                 >
                   Sagor Munshi
                 </motion.h1>
-                <motion.p 
+                <motion.p
                   className="text-xl mb-4"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
